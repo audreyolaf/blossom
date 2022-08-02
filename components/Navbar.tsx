@@ -10,12 +10,12 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex font-sans items-center flex-wrap bg-babyPink p-3 '>
+      <nav className='flex font-sans items-center flex-wrap bg-whitepink p-3 '>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             
-            <span className='text-xl text-white font-bold uppercase tracking-wide'>
-              Blossom
+            <span className='text-2xl text-white font-bold tracking-wide'>
+              blossom
             </span>
           </a>
         </Link>

@@ -12,6 +12,8 @@ module.exports = {
       babyPink: '#FFC2DA',
       babyBlue: '#8EB3E4',
       lightSal: '#FFE7DC',
+      Salmon: '#FF6161',
+      whitepink: "#FAEDF6"
     },
     extend: {
       fontFamily: {
