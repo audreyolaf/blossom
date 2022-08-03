@@ -4,7 +4,6 @@ import { Navbar } from '../components/Navbar'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-import one from '../public/images/one.png'
 export default function Index() {
   const particlesInit = async (main) => {
     console.log(main);
@@ -13,15 +12,20 @@ export default function Index() {
   return (
     <div>
       <Navbar />
-      <div className="grid place-items-center h-screen mb-0 bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
+      <div className="grid place-items-center h-screen bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
         <div>
-            <h1 className="text-9xl mt-0 text-Salmon font-semibold">blossom</h1>
+            <h1 className="text-9xl mb-0 text-Salmon font-semibold">blossom</h1>
           </div>
-        <h2 className="text-2xl #000">examining the role social media has on eating disorders</h2>
-<Particles
+        <h2 className="text-2xl mt-0 white">examining the role social media has on eating disorders</h2>
+        <div className="bg-babyPink text-center">
+        <h2 className="text-2xl">↓ the impact ↓</h2>
+          <p className="text-xl m-5">The percentage of people with eating disorders have more than doubled from 2006 to 2018 across all demographics. <br/>
+This is caused by social media platforms promoting diet culture and unrealistic beauty standards, leading to an increase in thoughts of negative body image.
+</p>
+          </div>
+    <Particles
       id="tsparticles"
       init={particlesInit}
-
       options={{ 
     "fullScreen": {
         "enable": true,
@@ -120,9 +124,6 @@ export default function Index() {
         }
     },
     "retina_detect": true,
-    "background": {
-        // "color": "#FF8B8B",
-    }
         }}
     />
       </div>

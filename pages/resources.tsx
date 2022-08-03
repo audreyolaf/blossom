@@ -4,11 +4,12 @@ export default function Generator() {
   return (
     <div>
       <Navbar />
-      <div>
-      <div className="bg-lightSal px-8 py-10 text-3xl font-bold text-center">
+      <div className="bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
+      <div className="bg-lightSal px-8 py-10 text-2xl font-bold text-center">
           <h2 className="italic">you are not alone.</h2>
-      </div>
+      </div><br />
         
+        <span className="text-2xl mx-8 my-14 p-3 text-center bg-babyBlue rounded-lg">ed help centers</span>
         <div className="grid grid-flow-col grid-flow-col-dense">
       <div className="m-8 max-w-sm bg-white rounded-lg bg-whitepink">
       <div className="p-5">
@@ -50,11 +51,24 @@ export default function Generator() {
       </div>
       </div>
 
-          
     </div>
-</div>
+          <span className="text-2xl mx-8 p-3 text-center bg-babyBlue rounded-lg">support for youth</span>
+        <ul className="text-lg ml-8 my-5">
+              <li><a href="https://about-face.org/" target="_blank" rel="noopener noreferrer">About Face</a></li>
+              <li><a href="https://health.clevelandclinic.org/signs-you-need-to-take-a-break-from-social-media/" target="_blank" rel="noopener noreferrer">Take A Break</a></li>
+              <li><a href="https://namica.org/get-help/in-school/youth-mental-health-resources/" target="_blank" rel="noopener noreferrer">Youth Mental Health</a></li>
+            <li><a href="https://www.chhs.ca.gov/childrens-mental-health-resources/" target="_blank" rel="noopener noreferrer">Children Mental Health Resources</a></li>
+          <li><a href="https://safeteens.org/health-wellness/" target="_blank" rel="noopener noreferrer">Safe Teens</a></li>
+        </ul>
         
+        <span className="text-2xl mx-8 p-3 text-center bg-babyBlue rounded-lg">helplines</span>
+        <ul className="text-lg ml-8 my-5">
+              <li><NEDA eating disorder helpline: 1-800-931-2237</li>
+              <li><national suicide prevention lifeline: 988</li>
+              <li><NAMI mental health helpline: 800-950-NAMI (6264)</li>
+        </ul>
         </div>
+      </div>
 
   )
 }

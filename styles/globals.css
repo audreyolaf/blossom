@@ -8,10 +8,10 @@
 
 @font-face {
   font-family: 'Open-Sauce';
-  src: url('../fonts/opensauceone-regular-webfont.woff2') format('woff2');
-  src: url('../fonts/opensauceone-regular-webfont.woff') format('woff');
-  src: url('../fonts/OpenSauceOne-Regular.ttf') format('truetype');
-      }
+  src: url('../fonts/os.reg/opensauceone-regular-webfont.woff2') format('woff2');
+  src: url('../fonts/os.reg/opensauceone-regular-webfont.woff') format('woff');
+  src: url('../fonts/os.reg/OpenSauceOne-Regular.ttf') format('truetype');
+}
 
 * {
   font-family: -apple-system, 'Open-Sauce', 'Inter', 'Poppins', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -31,5 +31,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-
