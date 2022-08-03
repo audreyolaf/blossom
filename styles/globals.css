@@ -6,8 +6,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
+@font-face {
+  font-family: 'Open-Sauce';
+  src: url('../fonts/opensauceone-regular-webfont.woff2') format('woff2');
+  src: url('../fonts/opensauceone-regular-webfont.woff') format('woff');
+  src: url('../fonts/OpenSauceOne-Regular.ttf') format('truetype');
+      }
+
 * {
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Poppins', Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, 'Open-Sauce', 'Inter', 'Poppins', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 html,
@@ -24,3 +31,5 @@ a {
 * {
   box-sizing: border-box;
 }
+
+

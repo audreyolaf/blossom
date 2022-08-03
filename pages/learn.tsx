@@ -5,13 +5,13 @@ export default function Learn() {
   return (
     <div>
       <Navbar />
-      <div className="bg-gradient-to-r from-[#FF8B8B] to-[#FFE7DC]">
+      <div className="bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
       <div className="bg-lightSal px-8 py-10 text-3xl font-bold text-center">
           <h2 className="italic">every 52 minutes, at least one person dies as a result of an eating disorder.</h2>
       </div>
         
       <div className="m-50 p-5 text-center font-bold">
-        <h2 className="text-3xl m-auto">Here are the facts.</h2><br/>
+        <h2 className="text-3xl m-auto">here are the facts.</h2><br/>
         
 <div class="flex items-center">
         <div class="flex flex-col px-10">
