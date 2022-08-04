@@ -16,10 +16,10 @@ export default function Index() {
         <div>
             <h1 className="text-9xl mb-0 text-Salmon font-semibold">blossom</h1>
           </div>
-        <h2 className="text-2xl mt-0 white">examining the role social media has on eating disorders</h2>
-        <div className="bg-babyPink text-center">
-        <h2 className="text-2xl">↓ the impact ↓</h2>
-          <p className="text-xl m-5">The percentage of people with eating disorders have more than doubled from 2006 to 2018 across all demographics. <br/>
+        <h2 className="text-2xl mt-0 text-lightPink font-semibold">examining the role social media has on eating disorders</h2>
+        <div className="text-center mx-64 p-5 bg-lightPink leading-5 rounded-lg">
+        <h2 className="text-2xl">↓ the impact ↓</h2><br/>
+          <p className="text-xl">The percentage of people with eating disorders have more than doubled from 2006 to 2018 across all demographics. <br/>
 This is caused by social media platforms promoting diet culture and unrealistic beauty standards, leading to an increase in thoughts of negative body image.
 </p>
           </div>
@@ -33,7 +33,7 @@ This is caused by social media platforms promoting diet culture and unrealistic 
     },
     "particles": {
         "number": {
-            "value": 50,
+            "value": 15,
             "density": {
                 "enable": true,
                 "value_area": 800

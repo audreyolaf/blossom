@@ -9,7 +9,7 @@ export default function Generator() {
           <h2 className="italic">you are not alone.</h2>
       </div><br />
         
-        <span className="text-2xl mx-8 my-14 p-3 text-center bg-babyBlue rounded-lg">ed help centers</span>
+        <span className="text-2xl mx-8 my-18 p-2 text-center bg-babyBlue rounded-lg">ed help centers</span>
         <div className="grid grid-flow-col grid-flow-col-dense">
       <div className="m-8 max-w-sm bg-white rounded-lg bg-whitepink">
       <div className="p-5">
@@ -52,21 +52,27 @@ export default function Generator() {
       </div>
 
     </div>
-          <span className="text-2xl mx-8 p-3 text-center bg-babyBlue rounded-lg">support for youth</span>
+        <div className="grid grid-flow-col gap-3">
+  <div className="col-span-2">
+          <span className="text-2xl mx-8 p-2 text-center bg-babyBlue rounded-lg">support for youth</span>
         <ul className="text-lg ml-8 my-5">
-              <li><a href="https://about-face.org/" target="_blank" rel="noopener noreferrer">About Face</a></li>
-              <li><a href="https://health.clevelandclinic.org/signs-you-need-to-take-a-break-from-social-media/" target="_blank" rel="noopener noreferrer">Take A Break</a></li>
-              <li><a href="https://namica.org/get-help/in-school/youth-mental-health-resources/" target="_blank" rel="noopener noreferrer">Youth Mental Health</a></li>
-            <li><a href="https://www.chhs.ca.gov/childrens-mental-health-resources/" target="_blank" rel="noopener noreferrer">Children Mental Health Resources</a></li>
+              <li><a href="https://about-face.org/" target="_blank" rel="noopener noreferrer">about face</a></li>
+              <li><a href="https://health.clevelandclinic.org/signs-you-need-to-take-a-break-from-social-media/" target="_blank" rel="noopener noreferrer">take a break</a></li>
+              <li><a href="https://namica.org/get-help/in-school/youth-mental-health-resources/" target="_blank" rel="noopener noreferrer">youth mental health</a></li>
+            <li><a href="https://www.chhs.ca.gov/childrens-mental-health-resources/" target="_blank" rel="noopener noreferrer">children mental health resources</a></li>
           <li><a href="https://safeteens.org/health-wellness/" target="_blank" rel="noopener noreferrer">Safe Teens</a></li>
         </ul>
-        
-        <span className="text-2xl mx-8 p-3 text-center bg-babyBlue rounded-lg">helplines</span>
+        </div>
+
+          <div className="col-span-2">
+        <span className="text-2xl mx-8 p-2 text-center bg-babyBlue rounded-lg">helplines</span>
         <ul className="text-lg ml-8 my-5">
-              <li><NEDA eating disorder helpline: 1-800-931-2237</li>
-              <li><national suicide prevention lifeline: 988</li>
-              <li><NAMI mental health helpline: 800-950-NAMI (6264)</li>
+              <li>NEDA eating disorder helpline: 1-800-931-2237</li>
+              <li>national suicide prevention lifeline: 988</li>
+              <li>NAMI mental health helpline: 800-950-NAMI (6264)</li>
         </ul>
+            </div>
+        </div>
         </div>
       </div>
 

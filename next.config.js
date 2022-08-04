@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  "frame-ancestors": "https://google.com",
+  'X-Frame-Options': 'SAMEORIGIN',
 }
 
-module.exports = nextConfig
+const ContentSecurityPolicy = `
+  default-src 'self';
+  script-src 'self';
+  child-src https://google.com;
+`
+
+module.exports = nextConfig, ContentSecurityPolicy

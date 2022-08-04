@@ -5,33 +5,10 @@ export default function Learn() {
   return (
     <div>
       <Navbar />
-      <div className="bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
-      <div className="bg-lightSal px-8 py-8 text-2xl font-bold text-center">
-          <h2 className="italic">every 52 minutes, at least one person dies as a result of an eating disorder.</h2>
-      </div>
-        
-      <div className="m-50 p-5 text-center font-bold">
-        <h2 className="text-3xl m-auto">here are the facts.</h2><br/>
-        
-<div className="flex items-center">
-        <div className="flex flex-col px-10">
-           <span className="text-3xl px-5 m-auto bg-babyBlue rounded-lg">the impacts of social media</span><br/>
-            <p className="text-2xl">we all know that social media can be harmful, but just how much does it imapct teens? according to research conducted by xyz, it was found that xxx amount of teens are affected by zzzz this is important because of xxxx and we found that idk idk xyz researcher at university further found that disordered eating in girls xyz</p>
-        </div>
-        <iframe src="https://datastudio.google.com/u/0/reporting/3d8b6911-8de5-415c-abdc-ec8edfe988d6/page/bgOzC"></iframe>
-        <img className="py-2 pr-4 ml-8 rounded-lg" src="https://static01.nyt.com/images/2022/07/05/science/30tb-panda/30tb-panda-articleLarge.jpg?quality=75&auto=webp&disable=upscale"></img>
-    </div>
 
-        <div className="flex items-center">
-        <div className="flex flex-col px-10">
-           <span className="text-3xl px-5 m-auto bg-babyBlue rounded-lg">fact check! </span><br/>
-            <p className="text-2xl">celebrities, influencers, peers, everyone edits their posts. but how often do they? and to what extent?<br />xyz professor researched xyz teens social media in 2018, finding that 90% of teens modify their body in social media posts. in popular platfroms such as instagram, facebook, tiktok, etc</p>
-        </div>
-        <img className="py-2 pr-4 ml-8 rounded-lg" src="https://static01.nyt.com/images/2022/07/05/science/30tb-panda/30tb-panda-articleLarge.jpg?quality=75&auto=webp&disable=upscale"></img>
+      <div className="bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
+        <iframe className="w-full h-screen" width="100%" height="100%" src="https://datastudio.google.com/embed/reporting/3d8b6911-8de5-415c-abdc-ec8edfe988d6/page/bgOzC"></iframe>
     </div>
-        
-        </div>
-        </div>
     </div>
   )
 }

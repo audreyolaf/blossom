@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex font-sans items-center flex-wrap bg-whitepink p-3 '>
+      <nav className='flex font-sans items-center flex-wrap bg-lightPink p-3 '>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             
@@ -55,7 +55,7 @@ export const Navbar = () => {
               </a>
             </Link>
             <Link href='/resources'>
-              <a className='lg:inline-flex lg:w-auto w-full px-2 py-2 rounded text-white items-center justify-center hover:bg-red-300 hover:text-white'>
+              <a className='lg:inline-flex lg:w-auto w-full px-2 py-2 rounded text-white font-semibold items-center justify-center hover:bg-red-300 hover:text-white'>
                 resources
               </a>
             </Link>
