@@ -12,11 +12,11 @@ export default function Index() {
   return (
     <div>
       <Navbar />
-      <div className="grid place-items-center h-screen bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
+      <div className="grid place-content-center text-center h-screen bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0]">
         <div>
             <h1 className="text-9xl mb-0 text-Salmon font-semibold">blossom</h1>
           </div>
-        <h2 className="text-2xl mt-0 text-lightPink font-semibold">examining the role social media has on eating disorders</h2>
+        <h2 className="text-2xl mt-0 text-lightPink font-semibold">examining the role social media has on eating disorders</h2><br/><br/>
         <div className="text-center mx-64 p-5 bg-lightPink leading-5 rounded-lg">
         <h2 className="text-2xl">↓ the impact ↓</h2><br/>
           <p className="text-xl">The percentage of people with eating disorders have more than doubled from 2006 to 2018 across all demographics. <br/>

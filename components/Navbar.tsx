@@ -14,7 +14,7 @@ export const Navbar = () => {
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             
-            <span className='text-2xl text-white font-bold tracking-wide'>
+            <span className='text-2xl text-white font-bold tracking-wide hover:text-Salmon'>
             blossom
             </span>
           </a>
@@ -45,17 +45,17 @@ export const Navbar = () => {
         >
           <div className='font-sans lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/learn'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold items-center justify-center hover:bg-red-300 hover:text-white'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold items-center justify-center hover:text-Salmon hover:text-white'>
                 data
               </a>
             </Link>
             <Link href='/generator'>
-              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold items-center justify-center hover:bg-red-300 hover:text-white'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold items-center justify-center hover:text-Salmon hover:text-white'>
                 generator
               </a>
             </Link>
             <Link href='/resources'>
-              <a className='lg:inline-flex lg:w-auto w-full px-2 py-2 rounded text-white font-semibold items-center justify-center hover:bg-red-300 hover:text-white'>
+              <a className='lg:inline-flex lg:w-auto w-full px-2 py-2 rounded text-white font-semibold items-center justify-center hover:text-Salmon hover:text-white'>
                 resources
               </a>
             </Link>

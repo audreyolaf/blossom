@@ -20,7 +20,7 @@ export default function Generator() {
       <Image className="rounded-t-lg" src={selfLove} alt="" />
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">self love reminders</h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{randomReminders[randomNumber]}</p>
-        <a href="./generator" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue rounded-lg">
+        <a href="./generator" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue hover:text-Salmon hover:bg-lightPink rounded-lg">
             generate
         </a>
     </div>
@@ -29,7 +29,7 @@ export default function Generator() {
       <Image className="rounded-t-lg" src={journal} alt="" />
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">daily journal prompts</h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{randomPrompt[randomNumber]}</p>
-        <a href="./generator" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue rounded-lg">
+        <a href="./generator" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue hover:text-Salmon hover:bg-lightPink rounded-lg">
             generate
         </a>
     </div>
@@ -38,7 +38,7 @@ export default function Generator() {
       <Image className="rounded-t-lg" src={lofi} alt="" />
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">playlist</h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">lofi</p>
-        <a href="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue rounded-lg" target="_blank" rel="noopener noreferrer">
+        <a href="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue hover:text-Salmon hover:bg-lightPink rounded-lg" target="_blank" rel="noopener noreferrer">
             listen
         </a>
     </div>
@@ -47,7 +47,7 @@ export default function Generator() {
       <Image className="rounded-t-lg" src={selfCare} alt="" />
       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">playlist</h5>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">self care</p>
-        <a href="https://open.spotify.com/playlist/37i9dQZF1DWWpVZ8B1NLio" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue rounded-lg" target="_blank" rel="noopener noreferrer">
+        <a href="https://open.spotify.com/playlist/37i9dQZF1DWWpVZ8B1NLio" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-babyBlue hover:text-Salmon hover:bg-lightPink rounded-lg" target="_blank" rel="noopener noreferrer">
             listen
         </a>
     </div>
