@@ -52,6 +52,9 @@ export default function Generator() {
         </a>
     </div>
       </div>
+        <div className="bg-gradient-to-r from-[#FBB9C4] to-[#ECC8F0] px-8 py-10 text-2xl text-babyPink font-light text-center">
+          <h2 className="italic">.<br/><br/><br/><br/>~</h2>
+      </div>
   </div>
   )
 }
